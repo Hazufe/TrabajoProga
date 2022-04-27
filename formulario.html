@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <form action="">
         <label for="nombre">Nombre: </label>
-        <input type="text" placeholder="Escribe tu nombre"> 
+        <input type="text" placeholder="Escribe tu nombre">
         <br><br>
         <label for="Apellidos">Apellidos: </label>
-        <input type="text" placeholder="Escribe tus apellidos">    
+        <input type="text" placeholder="Escribe tus apellidos">
         <p>Elige tu lenguaje de programación favorito:</p>
         <input type="radio" name="lenguaje" id="radio-js" value="js" required="">
         <label for="radio-js">JavaScript</label>
         <input type="radio" name="lenguaje" id="radio-py" value="py" checked="">
-  <label for="radio-py">Python</label>
-<input type="radio" name="lenguaje" id="radio-php" value="php">
-<label for="radio-php">PHP</label>
-<br><br>
-<input type="email" name="correo" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Formato de correo inválido" required="">
-<br><br>
-<textarea name="comentarios" cols="30" rows="10" required=""></textarea>
-<br>
-<input type="submit">
-</form>
+        <label for="radio-py">Python</label>
+        <input type="radio" name="lenguaje" id="radio-php" value="php">
+        <label for="radio-php">PHP</label>
+        <br><br>
+        <input type="email" name="correo" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+            title="Formato de correo inválido" required="">
+        <br><br>
+        <textarea name="comentarios" cols="30" rows="10" required=""></textarea>
+        <br>
+        <input type="submit">
+    </form>
 </body>
+
 </html>
