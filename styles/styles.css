@@ -21,7 +21,7 @@ header{
 }
 
 header .titulo{
-    color:rgb(198, 223, 245);
+    color:white;
     font-size: 50px;
     display: flex;
     height: 430px;
@@ -45,12 +45,14 @@ header .titulo{
     color: black;
     text-align: left;
     font-size: 40px;
+    padding-top: 20px;
    
 }
 
 .contenedor-texto{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .imagen-comp{
@@ -116,5 +118,28 @@ header .titulo{
     
 }
 
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
 
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.contenedor-texto img{
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
 
